@@ -100,6 +100,16 @@ main {
     border: 1px solid #ddd;
 }
 
+.links 
+  {
+    box-sizing: border-box;  
+    width: 25%; 
+    margin: 40px 0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+
+}
+
 
 figure{
     margin: 20px 15px 10px 0px;
