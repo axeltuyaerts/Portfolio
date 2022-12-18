@@ -63,16 +63,15 @@ h2{
 .site ul {
     margin: 0px;
     padding: 0px;
-    font-weight: 300;
-    text-align: right;  
+    font-weight: 200;
+    text-align: left;  
 }
 .site li {
     margin: 0px;
     padding: 20px;
-
     display: inline-block;
     text-align: center;
-    border-left: 1px solid #D1c2a9;
+    border-right: 1px solid #D1c2a9;
 }
 
 
@@ -127,7 +126,7 @@ p {
 footer
 {
     border: 1px solid #ddd;
-    width: 80%;
+    width: 72%;
 }
 
 .CV {
