@@ -1,0 +1,182 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 100px auto;
+    background-color: #9d9f9f;
+}
+
+body {
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #070707;
+    box-shadow: 20px 20px 50px 15px #6e6864;
+}
+
+header,
+h1,
+h2 {
+  margin: 0;
+  padding: 5px;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+header
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 35px;
+    line-height: 50px;
+    padding: 5px;
+    color: white;
+}
+.kop{
+    width: 99.2%;
+    padding: 5px;
+    border: 1px solid #D1c2a9;
+}
+
+.undertitle{
+    color: white;  
+}
+
+/* navigation bar */
+.site {
+    margin: 0;
+    padding: 0px;
+    font-weight: 300;
+    border-bottom: 1px solid #D1c2a9;
+    border-left: 1px solid #D1c2a9;
+    border-right: 1px solid #D1c2a9;
+}
+
+.site ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    text-align: right;  
+}
+.site li {
+    margin: 0px;
+    padding: 20px;
+
+    display: inline-block;
+    text-align: center;
+    border-left: 1px solid #D1c2a9;
+}
+
+
+ .site a:hover{
+    color: #ddd;
+    font-weight: 550;
+    text-decoration: underline;
+ }
+
+ 
+/* centrale inhoud */
+main {   
+        width: 70%; 
+        margin: 40px 0;
+        padding: 20px 10px;
+        border: 1px solid #ddd;
+        display: inline-block;
+}
+.sidebar
+{
+    box-sizing: border-box;  
+    width: 25%; 
+    float: right;
+    margin: 40px 0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+
+figure{
+    margin: 20px 15px 10px 0px;
+    float: left ;
+}
+.Contact
+{
+    color:  white;
+
+}
+
+a {
+    color: #AC8059;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0px;
+    padding: 9px;
+    color: white;
+}
+footer
+{
+    border: 1px solid #ddd;
+}
+
+.CV {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* contactfrormulier */  
+  fieldset {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  fieldset legend {
+    color: white;
+    text-align: left;
+  }
+  
+  label,
+  input,
+  select {
+    display: inline-block;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  fieldset label,
+  fieldset input,
+  fieldset select,
+  fieldset textarea {
+    min-width: 320px;
+    vertical-align: top;
+  }
+
+  fieldset select
+  {
+    color: black;
+  }
+
+  
+  input[type="checkbox"],
+  input[type="submit"] {
+    width: auto;
+    min-width: auto;
+  }
+
+  input[type="submit"]
+  {
+    color: black;
+  }
+  
